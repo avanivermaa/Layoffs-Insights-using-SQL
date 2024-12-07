@@ -3,24 +3,24 @@
 This project focuses on cleaning and analyzing a dataset using SQL. The project is divided into two parts: data cleaning and data analysis.
 
 # Part 1: Data Cleaning Process
-# Steps in Data Cleaning Process
-1. Removing Duplicates:
+## Steps in Data Cleaning Process
+### 1. Removing Duplicates:
 Identified and eliminated duplicate entries to ensure data integrity.
-2. Standardizing Data:
-Industry Information:
+### 2. Standardizing Data:
+#### Industry Information:
 1. Addressed missing or null values in the industry field.
 2. Filled in missing industry information for entries like Airbnb, where the industry (travel) was known but not consistently mentioned.
 3. Standardized variations in industry names to maintain consistency.
-Country Names:
+#### Country Names:
 1. Corrected inconsistencies and variations in country names.
-Dates:
+#### Dates:
 1. Converted dates from text format to a standardized date format.
-Location Names:
+#### Location Names:
 1. Harmonized location names to ensure consistency.
    
-3. Handling Null or Blank Values
+### 3. Handling Null or Blank Values
 Removed entries where both total_laid_off and percentage_laid_off were null or empty, as these entries lacked crucial data and were deemed uninformative.
-4. Removing Unnecessary Columns
+### 4. Removing Unnecessary Columns
 Dropped extra columns that were previously added solely for the data cleaning process and were no longer needed.
 
 # Part 2: Data Analysis
